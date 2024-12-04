@@ -1,0 +1,153 @@
+.wrapper{
+  display: flex;
+}
+
+.side-bar{
+  background-color: #253141;
+  width: 300px;
+  height: 100vh;
+}
+
+.main-chat{
+  height: 100vh;
+  background-color: #ffffff;
+  width: calc(100vw - 300px);
+}
+
+.logo{
+  height: 100px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.side-menu{
+  background-color: #2F3E51;
+  height: calc(100vh - 100px);
+  padding: 0 20px;
+  overflow: scroll;
+}
+
+.main-header{
+  height: 100px;
+  width: calc(100vw - 300px);
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main{
+  height: calc(100vh - 190px);
+  background-color: #fafafa;
+  padding: 46px 40px 0;
+
+}
+
+.footer{
+  background-color: #DDDDDD;
+  height: 90px;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+}
+
+.user-name a{
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.new-button a{
+  padding: 14px;
+  font-size: 10px;
+  border: 1px solid lightblue;
+  text-decoration: none;
+  color :deepskyblue;
+}
+
+.room-contents{
+  margin: 20px 0 40px ;
+  color: white;;
+}
+
+.room-name a{
+  text-decoration: none;
+  color: white;
+}
+
+.group-name{
+  font-size: 24px;
+  color: #333;
+}
+
+.chat-end a{
+  text-decoration: none;
+  color: darkred;
+  border: 1px solid darkred;
+  padding: 20px;
+  margin: 40px 0;
+}
+
+.chat-column{
+  display: flex;
+  padding: 10px 0;
+}
+
+.chat-user{
+  margin-right: 10px;
+  font-size: 16px;
+  color: #434A54;
+}
+
+.chat-date{
+  font-size: 12px;
+  color: #999;
+}
+
+.chat-message{
+  font-size: 14px;
+  color: #434A54;
+  margin-bottom: 40px;
+}
+
+.form-input{
+  width: 100%;
+  display: flex;
+  border: none;
+  background-color: white;
+}
+
+.form-message{
+  height: 50px;
+  padding-left: 10px;
+  width: 100%;
+  border: none;
+}
+
+.form-submit{
+  background-color: #38AEF0;
+  height: 50px;
+  margin-left: 15px;
+  padding: 0 20px;
+  border-style: none;
+  color: white;
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden{
+  display: none;
+}
+
+
+
